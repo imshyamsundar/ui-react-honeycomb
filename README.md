@@ -53,11 +53,11 @@ function App() {
 };
 ```
 ### Props
-| Name        | value       | Description                                              |
-| ----------- | ----------- | -------------------------------------------------------- |
-| image       | String      | Can be a direct link                                     |
-| link        | Object      | Object contains href: String||null, target: String||null |
-| text        | String      | Text appears inside the honeycomb                        |
+| Name        | value       | Description                                                      |
+| ----------- | ----------- | ---------------------------------------------------------------- |
+| image       | String      | Can be a direct link                                             |
+| link        | Object      | Object contains href: String (or) null, target: String (or) null |
+| text        | String      | Text appears inside the honeycomb                                |
 
 # License
 
