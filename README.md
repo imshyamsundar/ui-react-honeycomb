@@ -55,14 +55,19 @@ function App() {
     }
 };
 ```
-### Props
+## Props
+
 | Name        | value       | Description                                                      |
 | ----------- | ----------- | ---------------------------------------------------------------- |
 | image       | String      | Can be a direct link                                             |
 | link        | Object      | Object contains href: String (or) null, target: String (or) null |
 | text        | String      | Text appears inside the honeycomb                                |
 
-# License
+## Test Coverage (100%)
+
+![Screenshot](./docs/test_coverage.png)
+
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
