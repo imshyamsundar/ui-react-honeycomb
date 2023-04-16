@@ -1,6 +1,6 @@
 {
   "name": "@imshyamsundar/react-ui-honeycomb",
-  "version": "1.13.0",
+  "version": "1.0.0",
   "description": "It is a simple honeycomb UI library for react, developed and maintained by https://shyamsundar.dev ",
   "scripts": {
     "rollup": "rollup -c",
