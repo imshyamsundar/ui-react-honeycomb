@@ -30,17 +30,7 @@ npm install <name/> --save-dev
 
 ## Usage
 
-### Carousel
+### Honeycomb
 
-You can create a carousel based off of a set of predetermined markup. Assuming you have the appropriate elements
-already in the DOM and have your CSS set up correctly to show and hide the styles. You can setup Carousel
-and navigate to panels programmatically.
-
-```javascript
-var carousel = new Carousel({
-    panels: document.getElementsByClassName('carousel-panel')
-});
-
-carousel.goTo(1); // go to second carousel panel
-```
+You can create a Honeycomb based off of a set of predetermined markup. 
 
