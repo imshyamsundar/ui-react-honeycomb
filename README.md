@@ -4,6 +4,9 @@ A lightweight and flexible honeycomb UI design that allows you to build fully fu
 This library is built using react JS (for performance) and adheres to latest ECMAScript specs.
 Supports IE10+, all major browsers and even mobile.
 
+# DEMO
+![Screenshot](./docs/Honeycomb_demo.png)
+
 ## Inspiration
 
 This is a module that I built originally to solve many of the headaches and complexities around building, flexible
