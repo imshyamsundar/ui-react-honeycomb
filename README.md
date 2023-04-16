@@ -1,19 +1,13 @@
-# ui-react-honeycomb
-It is a simple honeycomb UI library for react, developed and maintained by https://shyamsundar.dev
-
-[![Build Status](https://travis-ci.org/mkay581/carousel-js.svg?branch=master)](https://travis-ci.org/mkay581/carousel-js)
-[![npm version](https://badge.fury.io/js/carousel-js.svg)](https://badge.fury.io/js/carousel-js)
-
-# Honeycomb Design for React
+# Honeycomb Design (Responsive) for React
 
 A lightweight and flexible honeycomb UI design that allows you to build fully functional, advanced honeycomb design with minimal javascript and markup.
-This library is built using native react javascript (for performance) and adheres to latest ECMAScript specs.
+This library is built using react JS (for performance) and adheres to latest ECMAScript specs.
 Supports IE10+, all major browsers and even mobile.
 
 ## Inspiration
 
-This is a module that I built originally to solve many of the headaches and complexities around building flexible
-and scalable honeycomb design.
+This is a module that I built originally to solve many of the headaches and complexities around building, flexible
+and scalable honeycomb UI.
 
 This library has been used and adopted on many projects, including:
 
@@ -25,12 +19,47 @@ This library has been used and adopted on many projects, including:
 You can install as an npm package if using a build system like [Browserify](http://browserify.org/). 
 
 ```
-npm install <name/> --save-dev
+npm install @imshyamsundar/ui-react-honeycomb@1.0.0
 ```
 
 ## Usage
+```javascript
+import { Honeycomb } from "@imshyamsundar/ui-react-honeycomb";
 
-### Honeycomb
+function App() {
+    const item = [
+        {
+            image: "https://www.truzlyindia.com/wp-content/uploads/2020/11/ti-startup.jpg",
+            link: {
+                href: "https://www.truzlyindia.com/private-limited-company/",
+                target: "_blank"
+            },
+            text: "Start up"
+        },
+        {
+            image: "https://www.truzlyindia.com/wp-content/uploads/2020/11/ti-ip.jpg", 
+            link: {
+                href: "https://www.truzlyindia.com/trademark-registration/",
+                target: "_blank"
+            },
+            text: "Intellectual Property"
+        }
+    ]
+    render() {
+        return (
+           <Honeycomb props={item} />
+        );
+    }
+};
+```
+### Props
+| Name        | value       | Description                                              |
+| ----------- | ----------- | -------------------------------------------------------- |
+| image       | String      | Can be a direct link                                     |
+| link        | Object      | Object contains href: String||null, target: String||null |
+| text        | String      | Text appears inside the honeycomb                        |
 
-You can create a Honeycomb based off of a set of predetermined markup. 
+# License
+
+Distributed under the MIT License. See `LICENSE` for more information.
 
